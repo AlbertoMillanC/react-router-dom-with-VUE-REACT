@@ -1,6 +1,6 @@
 
 export default function home() {
   return (
-    <h4>Products page</h4>
+    <h4>About Us page</h4>
   )
 }
