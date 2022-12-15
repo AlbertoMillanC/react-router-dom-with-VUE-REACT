@@ -1,8 +1,14 @@
+import { Routes, Route } from "react-router-dom"
+import ProductDetail from "../components/ProductDetail"
+
 export default function products() {
   return (
    
-    <div>
+    <>
     <h4>products</h4>
-    </div>
+    <Routes>
+        <Route path= ":productId" element ={<ProductDetail />} />
+    </Routes>
+    </>
   )
 }
