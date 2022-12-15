@@ -5,7 +5,7 @@ export default function products() {
   return (
    
     <>
-    <h4>products</h4>
+    <h4>products  page </h4>
     <Routes>
         <Route path= ":productId" element ={<ProductDetail />} />
     </Routes>
