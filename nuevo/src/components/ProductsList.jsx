@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function ProductsList({products}) {
   return (
@@ -5,8 +6,8 @@ function ProductsList({products}) {
     {products.map(product =>{
         return (
         <li key={product.id}>
-            <h4>{product.title}</h4>
-            more details
+            <strong>{product.title}</strong>{" "}
+           <Link to ={'/products/${product.id}'}>more details </Link>
         </li>
         )
 

@@ -7,7 +7,7 @@ import ProductDetail from "../components/ProductDetail";
 
 
 export default function products()  {
-    const [products, setProducts] = useState([]);
+    const [products, setProducts] = useState([]);  
 
     useEffect(() => {
         Axios.get("https://dummyjson.com/products")
