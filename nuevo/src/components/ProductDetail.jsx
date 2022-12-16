@@ -1,6 +1,6 @@
 import Axios  from "axios";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 
 
 function ProductDetail() {
@@ -23,6 +23,7 @@ function ProductDetail() {
                 width="200" />
                 <p>Category: {product.category}</p>
                 <p>Description: {product.description}</p>
+                <Link to= "/products">Back to products page</Link>
             </>
     )}
     </>
