@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import AboutUS from "./pages/AboutUS";
 import Products from "./pages/Products";
+import SearchResults from "./pages/SearchResults";
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<AboutUS />} />
           <Route path="products/*" element={<Products />} />
+          <Route path="search" element={<SearchResults />} />
+
       </Route>
       
 
