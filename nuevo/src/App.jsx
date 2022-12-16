@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import AboutUS from "./pages/AboutUS";
 import Products from "./pages/Products";
 import SearchResults from "./pages/SearchResults";
+import NotFound from "./pages/NotFound";
+
 
 
 function App() {
@@ -18,7 +20,8 @@ function App() {
           <Route path="search" element={<SearchResults />} />
 
       </Route>
-      
+      <Route path="*" element={<NotFound />} />
+
 
     </Routes>
   )

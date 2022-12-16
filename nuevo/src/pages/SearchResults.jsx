@@ -15,7 +15,18 @@ function SearchResults() {
   return (
     <div>
        <h4>Search Results</h4> 
-       <ProductsList products ={products} />
+       {products.length == 0 &&<em> No product Found  </em>}
+       {products.length  && <ProductsList products ={products} />}
+       
+       
+       
+       
+       
+
+       
+
+       
+       
     </div>
   )
 }
