@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom"
  function navbar() {
   const navigate = useNavigate ();
   const [Keyword, setKeyword] = useState("");
+  
   const handleSubmit = e => {
     e.preventDefault();
     setKeyword("")
