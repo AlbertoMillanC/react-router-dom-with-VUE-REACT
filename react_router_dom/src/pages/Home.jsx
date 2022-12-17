@@ -1,6 +1,15 @@
 
-export default function home() {
-  return (
-    <h4>home page</h4>
+
+function Home(){
+    return (
+   <div>
+    <section>
+            <h1>Nuestros medicos veteriarios</h1>
+           
+              
+    </section>
+   </div>
   )
 }
+
+export default Home;

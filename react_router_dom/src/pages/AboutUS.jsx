@@ -1,6 +1,8 @@
 
-export default function home() {
+function AboutUs() {
   return (
-    <h4>About Us page</h4>
+    <div>AboutUs</div>
   )
 }
+
+export default AboutUs
