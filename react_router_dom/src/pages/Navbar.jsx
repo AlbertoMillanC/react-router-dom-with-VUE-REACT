@@ -11,7 +11,10 @@ function navbar() {
     <div>
         <Link to="/">Home</Link>{" "}
         <Link to="about ">AboutUS</Link>{" "}
-        <Link to="products ">Product</Link>{" "}
+        <Link to="Vet1 ">Vet1</Link>{" "}
+        <Link to="Vet2 ">VET2</Link>{" "}
+        <Link to="Vet3 ">VET3</Link>{" "}
+
       
         
       

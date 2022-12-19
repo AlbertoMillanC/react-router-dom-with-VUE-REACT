@@ -1,20 +1,20 @@
 import { Routes, Route } from 'react-router-dom';
-import CarVetDoctors from '../components/CarVetDoctors';
+import CarVetDoctors2 from '../components/CarVetDoctors2';
 
 
 
-import vet1 from '../media/vet1.jpeg';
+import vet2 from '../media/vet2.jpeg';
 
-function Vet1() {
+function Vet2() {
   return (
     <div className="App">
           <h1>Nuestros medicos veteriarios</h1>
           <ul className= "breedCardContainer">
-          <CarVetDoctors nameVet='Leonidas Ferminan' image={vet1} /> 
+          <CarVetDoctors2 nameVet='Leonidas Ferminan' image={vet2} /> 
              
           </ul>
       </div>
   )
 }
 
-export default Vet1
+export default Vet2

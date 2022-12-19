@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
-function CarVetDoctors({ nameVet,image }){
+function CarVetDoctors2({ nameVet,image }){
     return (
       <ul>
         <li className = "breedCard">
-         <Link to= '/Vet1'>
+         <Link to= '/Vet2'>
         
           <div className="contenedorImagen">
             <img src={image} alt = {nameVet} />
@@ -17,4 +17,4 @@ function CarVetDoctors({ nameVet,image }){
       
         );
   }
-  export default CarVetDoctors;
+  export default CarVetDoctors2;

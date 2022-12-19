@@ -21,7 +21,7 @@ function navbar() {
         <ul className="navbar">
               <h1 className = "logo">
                 <img src={logo} alt="imagen" className="logo"/>
-              </h1>
+              </h1 >
              
                 <div className="buscar" >
                 <input placeholder="busqueda" />
@@ -29,7 +29,6 @@ function navbar() {
                 </div>
               
               <h4><Link to = "/"className="button mainbutton">Home</Link></h4>
-              <h4><Link to = "vet1"className="button mainbutton">servicios</Link></h4>
               <h4><Link to = "SearchResults"className="button mainbutton">Iniciar sesión</Link></h4>
               <h4><Link to = "Products"className="button mainbutton">Registro</Link></h4>
               <h4><Link to = "AboutUs"className="button mainbutton">About Us</Link></h4>

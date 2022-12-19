@@ -1,9 +1,10 @@
+import "../styles/App.css";
 
 function NotFound() {
   return (
     <div>
-        <h2>404</h2>
-        <p>Not Found :(</p>
+        <h1 className ="h1" >Servicio no encontrado contactese con un administrador</h1>
+        <p className=".breedTitle">Not Found </p>
         
     </div>
   )

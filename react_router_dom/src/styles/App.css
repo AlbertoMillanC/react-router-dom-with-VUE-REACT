@@ -116,6 +116,16 @@ body {
   font-size:x-large;
 }
 
+.h1 {
+  color: rgb(12, 11, 12);
+  display:  inline-block;
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: bold;
+  font-size:x-large;
+  background-color: antiquewhite;
+}
+
 
 .buscar:focus-within {
   border: 3px solid green;
