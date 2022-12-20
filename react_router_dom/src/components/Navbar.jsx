@@ -1,7 +1,6 @@
 import { useState,  } from "react";
 import { Link, useNavigate } from "react-router-dom"
 import logo from '../media/logo192.png';
-import App from "../styles/App.css";
 import "../index.css";
 
 
