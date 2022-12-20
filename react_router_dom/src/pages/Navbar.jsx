@@ -14,12 +14,8 @@ function navbar() {
         <Link to="Vet1 ">Vet1</Link>{" "}
         <Link to="Vet2 ">VET2</Link>{" "}
         <Link to="Vet3 ">VET3</Link>{" "}
-
-      
-        
-      
-
-
+        <Link to="Login ">Login</Link>{" "}
+        <Link to="Logout ">Logout</Link>{" "}
     </div>
     )
 }

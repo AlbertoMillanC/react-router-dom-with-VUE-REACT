@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Products from "./pages/Products";
 import SearchResults from "./pages/SearchResults";
+import Logout from "./pages/Logout";
+import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import Vet1 from "./pages/Vet1";
 import Vet2 from "./pages/Vet2";
@@ -28,6 +30,8 @@ function App() {
         <Route path="Products" element={<Products />} />
         <Route path="SearchResults" element={<SearchResults />} />
         <Route path="AboutUs" element={<AboutUs />} />
+        <Route path="Logout" element={<Logout />} />
+        <Route path="Login" element={<Login />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>

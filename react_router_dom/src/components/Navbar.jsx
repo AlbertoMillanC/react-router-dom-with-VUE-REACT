@@ -24,25 +24,23 @@ function navbar() {
               </h1 >
              
                 <div className="buscar" >
-                <input placeholder="busqueda" />
-                <i className="fa-solid fa-magnifying-glass button iconobusqueda "></i>
+                  <form 
+                      onSubmit={handleSubmit}
+                      style={{ display: "" }}>
+                    <input 
+                     className="buscar" 
+                    />
+                    <button className="buscar" >Find!</button>
+                  </form>
                 </div>
               
               <h4><Link to = "/"className="button mainbutton">Home</Link></h4>
-              <h4><Link to = "SearchResults"className="button mainbutton">Iniciar sesión</Link></h4>
-              <h4><Link to = "Products"className="button mainbutton">Registro</Link></h4>
+              <h4><Link to = "SearchResults"className="button mainbutton">Search Results</Link></h4>
+              <h4><Link to = "Products"className="button mainbutton">Products</Link></h4>
+              <h4><Link to = "Login"className="button mainbutton">Login</Link></h4>
+              <h4><Link to = "Logout"className="button mainbutton">Logout</Link></h4>
               <h4><Link to = "AboutUs"className="button mainbutton">About Us</Link></h4>
-              <form 
-                onSubmit={handleSubmit}
-                style={{ display: "" }}>
-                <input 
-                  type="buscar" 
-                  placeholder= "busqueda"
-                  defaultValue={Keyword}
-                  onChange={e => setKeyword(e.target.value)}
-                />
-                <button type="submit">Find!</button>
-              </form>
+              
               
         </ul>
     </div>

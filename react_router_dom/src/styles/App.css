@@ -19,7 +19,8 @@ body {
 
 .navbar > li{
   display: flex;
-  align-items: center
+  align-items: center0;
+  
 }
 
 .logo {
@@ -36,6 +37,10 @@ body {
   padding: 5px 10px;
   border-radius:10px;
   font-weight: bolder;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
 }
 
 
@@ -53,6 +58,10 @@ body {
   padding: 5px 10px;
   border-radius:10px;
   font-weight: bolder;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
 }
 
 
@@ -87,9 +96,8 @@ body {
 }
 
 .buscar {
-  background-color:white;
-  border: 1px solid green ;
-  padding: 4px;
+
+
   -webkit-border-radius:8px ;
   -moz-border-radius:8px ;
   -ms-border-radius:8px ;
@@ -129,6 +137,7 @@ body {
 
 .buscar:focus-within {
   border: 3px solid green;
+  
 }
 
 .buscar > input {
