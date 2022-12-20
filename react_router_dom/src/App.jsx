@@ -1,11 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 
 
-<<<<<<< HEAD
 import Layout from "./layouts/Layout";
-=======
-import Layout from "./loyouts/Layout";
->>>>>>> c33d14b12ddea3dff0dc630edf5237dfa7e2565e
 
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
