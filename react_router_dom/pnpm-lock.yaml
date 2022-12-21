@@ -11,6 +11,7 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.5.0
+  react-sticky-footer: 0.1.0-rc3
   tailwindcss: ^3.2.4
   vite: ^4.0.2
 
@@ -20,6 +21,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.5.0_biqbaboplfbrettd7655fr4n2y
+  react-sticky-footer: 0.1.0-rc3_react@18.2.0
 
 devDependencies:
   '@types/react': 18.0.26
@@ -1165,6 +1167,14 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.1.0
+      react: 18.2.0
+    dev: false
+
+  /react-sticky-footer/0.1.0-rc3_react@18.2.0:
+    resolution: {integrity: sha512-FKXTCQxLoRhSC0ReEbpE52jqzMcLSYcSJjPQrx8spDGBDp3IWiyo7c1Slibsut4UmHLWG6UUA1sUCDmSAFU43Q==}
+    peerDependencies:
+      react: 16.x
+    dependencies:
       react: 18.2.0
     dev: false
 

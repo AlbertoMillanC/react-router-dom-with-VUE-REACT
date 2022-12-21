@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 const footer = () => {
   return (
+    
     <footer className="bg-gray-800 py-4">
       <div className="container mx-auto flex items-center justify-between flex-wrap">
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
