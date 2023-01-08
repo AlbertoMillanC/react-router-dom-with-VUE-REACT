@@ -6,10 +6,12 @@ specifiers:
   '@vitejs/plugin-react': ^3.0.0
   autoprefixer: ^10.4.13
   axios: ^1.2.1
+  classnames: ^2.3.2
   init: ^0.1.2
   postcss: ^8.4.20
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-icons: ^4.7.1
   react-router-dom: ^6.5.0
   react-sticky-footer: 0.1.0-rc3
   tailwindcss: ^3.2.4
@@ -17,9 +19,11 @@ specifiers:
 
 dependencies:
   axios: 1.2.1
+  classnames: 2.3.2
   init: 0.1.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
   react-router-dom: 6.5.0_biqbaboplfbrettd7655fr4n2y
   react-sticky-footer: 0.1.0-rc3_react@18.2.0
 
@@ -684,6 +688,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+    dev: false
+
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
@@ -1140,6 +1148,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-refresh/0.14.0:
